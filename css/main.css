@@ -145,6 +145,7 @@ body {
   justify-content: space-between;
   padding: 0px;
   margin: 0px;
+  margin-bottom: 95px;
 }
 
 .about__features-item {
@@ -188,6 +189,7 @@ body {
   text-align: center;
   position: relative;
   padding-top: 105px;
+  padding-bottom: 50px;
 }
 
 .portfolio__title::after {
@@ -207,6 +209,7 @@ body {
   justify-content: center;
   padding: 0;
   margin: 0;
+  margin-bottom: 110px;
 }
 
 .portfolio__nav-link {
@@ -227,10 +230,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
 }
 
 .portfolio__project-item {
-  width: 520px;
+  width: 540px;
   height: 360px;
   background-color: #eaeaea;
   display: block;
@@ -242,4 +247,137 @@ body {
   color: black;
   padding: 13px 42px;
   margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+.partners__background {
+  background-image: url("../img/partners__background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.partners__wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.partners__title {
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-top: 95px;
+  padding-bottom: 90px;
+}
+
+.partners__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
+}
+
+.contact__wrapper {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.contact__title {
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 155px;
+}
+
+.contact__container {
+  display: flex;
+}
+
+.contact__column {
+  width: 460px;
+}
+
+.contact__desc {
+  font-size: 14px;
+  line-height: 26px;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.contact__name {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.contact__soc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.contact__soc-item {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid black;
+  text-align: center;
+  margin-right: 12px;
+}
+
+.contact__soc-img {
+  transform: translateY(5px);
+}
+
+.contact__email {
+  font-size: 14px;
+  margin: 0;
+}
+
+.contact__email_bold {
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #3c3c3c;
+}
+
+.footer__wrapper {
+  width: 270px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer__img {
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+
+.footer__nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.footer__nav-link {
+  color: #a4a4a4;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  margin: 0;
+  color: #6c6c6c;
+  padding-bottom: 50px;
+  font-size: 14px;
 }
