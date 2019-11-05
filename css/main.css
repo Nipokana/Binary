@@ -199,8 +199,8 @@ body {
   background-color: black;
   content: "";
   position: absolute;
-  left: 375px;
-  top: 65px;
+  left: 510px;
+  top: 170px;
 }
 
 .portfolio__nav-list {
@@ -291,14 +291,78 @@ body {
   text-align: center;
   margin-top: 180px;
   margin-bottom: 155px;
+  position: relative;
+}
+
+.contact__title::after {
+  display: block;
+  height: 1px;
+  width: 80px;
+  background-color: black;
+  content: "";
+  position: absolute;
+  left: 420px;
+  top: 65px;
 }
 
 .contact__container {
   display: flex;
+  justify-content: space-between;
 }
 
 .contact__column {
   width: 460px;
+}
+
+.contact__column_small {
+  width: 390px;
+}
+
+.input-text {
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: normal;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid black;
+  width: 160px;
+}
+
+.input-text::placeholder {
+  color: black;
+}
+
+.contact__form {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.contact__form-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__form-wrapper:last-child {
+  justify-content: flex-end;
+}
+
+.contact__input-message {
+  flex-grow: 1;
+}
+
+.contact__submit {
+  border: none;
+  font-weight: 700;
+  background-color: white;
+  padding-top: 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 
 .contact__desc {
